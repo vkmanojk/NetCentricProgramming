@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSE17040 | Lab 5</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>String Methods</h1>
+	<div class = "length">
+		<h2>1. length</h1>
+		<p id="text1"></p>
+		<p id="length"></p>
+	</div>
+	<div class="find">
+		<h2>2. indexOf</h1>
+		<p id="text2"></p>
+		<p id="find"></p>
+	</div>
+	<div class="findlast">
+		<h2>3. lastIndexOf</h1>
+		<p id="text3"></p>
+		<p id="findlast"></p>
+	</div>
+	<div class="find1">
+		<h2>4. indexOf with second parameter</h1>
+		<p id="text4"></p>
+		<p id="find1"></p>
+	</div>
+	<div class="findlast1">
+		<h2>5. lastIndexOf with second parameter</h1>
+		<p id="text5"></p>
+		<p id="findlast1"></p>
+	</div>
+	<div class="search">
+		<h2>6. search</h1>
+		<p id="text6"></p>
+		<p id="search"></p>
+		<p>
+			search can include regular expressions unlike indexOf and does not have a second parameter like indexOf.
+		</p>
+	</div>
+	<div class="slice">
+		<h2>7. slice</h1>
+		<p id="text7"></p>
+		<p id="slice"></p>
+	</div>
+	<div class="sliceend">
+		<h2>8. slice from end</h1>
+		<p id="text8"></p>
+		<p id="sliceend"></p>
+	</div>
+	<div class="slice1">
+		<h2>9. slice with single parameter</h1>
+		<p id="text9"></p>
+		<p id="slice1"></p>
+	</div>
+	<div class="slice2">
+		<h2>10. slice with single parameter (from last)</h1>
+		<p id="text10"></p>
+		<p id="slice2"></p>
+	</div>
+	<div class="substring">
+		<h2>11. substring</h1>
+		<p id="text11"></p>
+		<p id="substring"></p>
+		<p>
+			substring() cannot accept negative indexes.
+		</p>
+	</div>
+	<div class="substring1">
+		<h2>12. substring without second parameter</h1>
+		<p id="text12"></p>
+		<p id="substring1"></p>
+	</div>
+	<div class="substr">
+		<h2>13. substr</h1>
+		<p id="text13"></p>
+		<p id="substr"></p>
+		<p>
+			substr() is similar to slice(). The difference is that the second parameter specifies the length of the extracted part.
+		</p>
+	</div>
+	<div class="substr">
+		<h2>14. substr without second parameter</h1>
+		<p id="text14"></p>
+		<p id="substr1"></p>
+	</div>
+	<div class="substr">
+		<h2>15. substr with negative index</h1>
+		<p id="text15"></p>
+		<p id="substr2"></p>
+	</div>
+	<div class="replace">
+		<h2>16. replace</h1>
+		<p id="text16"></p>
+		<p id="replace"></p>
+	</div>
+	<div class="replace">
+		<h2>17. replace (Regular Expression)</h1>
+		<p id="text17"></p>
+		<p id="replace1"></p>
+	</div>
+	<div class="replace">
+		<h2>18. replace (All occurance)</h1>
+		<p id="text18"></p>
+		<p id="replace2"></p>
+	</div>
+	<div class="ucase">
+		<h2>19. Upper Case</h1>
+		<p id="text19"></p>
+		<p id="ucase"></p>
+	</div>
+	<div class="lcase">
+		<h2>20. Lower case</h1>
+		<p id="text20"></p>
+		<p id="lcase"></p>
+	</div>
+	<div class="lcase">
+		<h2>21. Concat</h1>
+		<p id="text21"></p>
+		<p id="concat"></p>
+	</div>
+	<div class="trim">
+		<h2>22. Trim</h1>
+		<p id="text22"></p>
+		<p id="trim"></p>
+	</div>
+	<div class="replacetrim">
+		<h2>23. Trim functionality using replace</h1>
+		<p id="text23"></p>
+		<p id="replacetrim"></p>
+	</div>
+	<div class="prototrim">
+		<h2>24. Trim functionality using replace</h1>
+		<p id="text24"></p>
+		<p id="prototrim"></p>
+	</div>
+	<div class="charat">
+		<h2>25. charAt</h1>
+		<p id="text25"></p>
+		<p id="charat"></p>
+	</div>
+	<div class="charcode">
+		<h2>26. charCodeAt</h1>
+		<p id="text26"></p>
+		<p id="charcode"></p>
+	</div>
+	<div class="charcode">
+		<h2>27. Property Access</h1>
+		<p id="text27"></p>
+		<p id="property"></p>
+		<p>
+			Property access might be a little unpredictable:
+			<ul>
+				<li>
+					It does not work in Internet Explorer 7 or earlier
+				</li> 
+				<li>
+					It makes strings look like arrays (but they are not)
+				</li>
+				<li>
+					If no character is found, [ ] returns undefined, while charAt() returns an empty string.
+				</li> 
+				<li>
+					It is read only. str[0] = "A" gives no error (but does not work!)
+				</li> 
+			</ul>
+		</p>
+	</div>
+	<div class="split">
+		<h2>28. split</h1>
+		<p id="text28"></p>
+		<p id="split"></p>
+	</div>
+	<div class="splitchar">
+		<h2>29. split to characters</h1>
+		<p id="text29"></p>
+		<p id="splitchar"></p>
+	</div>
+	<div class="constructor">
+		<h2>30. String's Constructor</h1>
+		<p id="text30"></p>
+		<p id="constructor"></p>
+	</div>
+	<div class="endswith">
+		<h2>31. endswith</h1>
+		<p id="text31"></p>
+		<p id="endswith1"></p>
+		<p id="endswith2"></p>
+	</div>
+	<div class="fromcharcode">
+		<h2>32. fromCharCode</h1>
+		<p id="text32"></p>
+		<p id="fromcharcode"></p>
+	</div>
+	<div class="includes">
+		<h2>33. includes</h1>
+		<p id="text33"></p>
+		<p id="includes"></p>
+	</div>
+	<div class="localecompare">
+		<h2>34. localeCompare</h1>
+		<p id="text34"></p>
+		<p id="localecompare1"></p>
+		<p id="localecompare2"></p>
+	</div>
+	<div class="match">
+		<h2>35. match</h1>
+		<p id="text35"></p>
+		<p id="match"></p>
+	</div>
+	<div class="repeat">
+		<h2>36. repeat</h1>
+		<p id="text36"></p>
+		<p id="repeat"></p>
+	</div>
+	<div class="startswith">
+		<h2>37. startsWith</h1>
+		<p id="text37"></p>
+		<p id="startswith1"></p>
+		<p id="startswith2"></p>
+	</div>
+	<div class="llower">
+		<h2>38. localeLowerCase</h1>
+		<p id="text38"></p>
+		<p id="llower"></p>
+	</div>
+	<div class="lupper">
+		<h2>39. localeLowerCase</h1>
+		<p id="text39"></p>
+		<p id="lupper"></p>
+	</div>
+	<div class="tostring">
+		<h2>40. toString</h1>
+		<p id="text40"></p>
+		<p id="tostring"></p>
+	</div>
+	<div class="valueof">
+		<h2>41. valueOf</h1>
+		<p id="text41"></p>
+		<p id="valueof"></p>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+* {
+	margin: 5px;
+	padding: 5px;
+	position: relative;
+}
+
+h1 {
+	text-align: center;
+}
+
+div {
+	background-color: #FFCCCC;
+	margin: 10px;
+	border: 3px solid blue;
+	white-space:pre-wrap;
+}
+
+div:nth-child(even) {
+  background-color: #CCFFCC;
+}
+
+p {
+	background-color: white;
+}
+ul {
+	background-color: white;
+	white-space:normal;
+}

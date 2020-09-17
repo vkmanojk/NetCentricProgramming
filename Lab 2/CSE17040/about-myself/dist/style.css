@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all 0.3s ease-in-out;
+}
+
+body,
+html {
+	max-width: 100vw;
+	min-height: 100vh;
+	overflow-x: hidden;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+h3 {
+	font-size: 15px;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	min-width: 100%;
+}
+
+.nav-item {
+	padding: 1rem;
+	width: 100%;
+	background-color: #eeeeee;
+}
+
+.nav-item > h3 > a {
+	color: black;
+	text-decoration: none;
+}
+
+marquee {
+	padding: 0.5rem;
+}
+
+main {
+	padding: 1rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.details,
+.picture {
+	display: flex;
+	flex-direction: column;
+}
+
+article {
+	margin-bottom: 2rem;
+	min-width: 100%;
+}
+
+.details {
+	min-width: 70%;
+}
+
+.picture {
+	min-width: 30%;
+}
+
+summary {
+	outline: none;
+	font-weight: bold;
+	user-select: none;
+	margin-bottom: 1rem;
+}
+
+details > p,
+.scrollable-list > * {
+	max-width: 25vw;
+}
+
+summary:hover {
+	cursor: pointer;
+}
+
+.vertical-menu {
+	width: 200px;
+	height: 150px;
+	overflow-y: auto;
+}
+
+.vertical-menu a {
+	background-color: #eee;
+	color: black;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+}
+
+.vertical-menu a:hover {
+	background-color: #ccc;
+}
+
+.vertical-menu a.active {
+	background-color: #7f95bb;
+	color: white;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+}
+
+footer > * {
+	width: 100%;
+	padding: 1rem;
+}

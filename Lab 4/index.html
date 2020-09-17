@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manojkumar V K | CSE17040</title>
+	<style> 
+        #q2 { 
+            background: #E73C49;
+        } 
+    </style> 
+</head>
+<body>
+	<!-- Question 1 -->
+	<h1>Q1. Browser Details</h1>
+	<p id="q1"></p>
+	<script type="text/javascript" src="q1.js"></script>
+	<!-- Question 2 -->
+	<h1>Q2. Image button</h1>
+	<div id="q2" style="padding: 30px;">
+		<a href = "https://vkmanojk.github.io" onMouseOver = "document.myImage.src = image2.src;" onMouseOut = "document.myImage.src = image1.src;">
+         <img name = "myImage" src = "klematis2_small.jpg">
+    	</a>
+	</div>
+	<script type="text/javascript" src="q2.js"></script>
+	<!-- Question 3 -->
+	<h1>Q3. Image maps</h1>
+	<img src="planets.gif" width="145" height="126"	alt="Planets" usemap="#planetmap" />
+	<map id ="planetmap" name="planetmap">
+	<area shape ="rect" coords ="0,0,82,126"
+	onMouseOver="writeText('The Sun and the gas giant planets like Jupiter are by far the largest objects in our Solar System.')" href ="sun.html" target ="_blank" alt="Sun" />
+
+	<area shape ="circle" coords ="90,58,3"	onMouseOver="writeText('The planet Mercury is very difficult to study from the Earth because it is always so close to the Sun.')" href ="mercury.html" target ="_blank" alt="Mercury" />
+
+	<area shape ="circle" coords ="124,58,8"
+	onMouseOver="writeText('Until the 1960s, Venus was often considered a twin sister to the Earth because Venus is the nearest planet to us, and because the two planets seem to share many characteristics.')"
+	href ="venus.html" target ="_blank" alt="Venus" />
+	</map> 
+	<p id="q3"></p>
+	<script type="text/javascript" src="q3.js"></script>
+	<!-- Question 4 -->
+	<h1>Q4. Fibonacci Series</h1>
+	<p>Click the input button</p>
+	<button onclick="input()">Input</button>
+	<p id="q4">Q4</p>
+	<script type="text/javascript" src="q4.js"></script>
+	<!-- Question 5 -->
+	<h1>Q5. Array of strings</h1>
+	<p id="q5"></p>
+	<button onclick="inp()">Input</button>
+	<button onclick="sort()">Sort</button>
+	<script type="text/javascript" src="q5.js"></script>
+	<!-- Question 6 -->
+	<h1>Q6. Simple Interest</h1>
+	<button onclick="simpl()">Calculate Simple Interest</button>
+	<p id="q6"></p>
+	<script type="text/javascript" src="q6.js"></script>
+
+</body>
+</html>
