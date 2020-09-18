@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orion | Competitive Exams</title>
+    <title>Orion | JEE Mains</title>
 
-    <link rel="stylesheet" href="css/exams.css">
+    <link rel="stylesheet" href="exams.css">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../css/exams.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- JS, Popper.js, and jQuery -->
@@ -13,43 +16,40 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    <script src="js/exams.js"></script>
 </head>
 <body>
     <nav class="d-flex navbar navbar-dark bg-dark m-3 navbar-expand-lg rounded-lg shadow fixed-top">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="../index.html">
             <span class="h3 font-weight-bold">Orion</span>
         </a>
         <span class="text-light">
-            Competitive Exams
+            Competitive Exams | JEE Mains
         </span>
         <button class="navbar-toggler btn btn-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link px-3 active" href="exams.html">Competitive Exams</a>
-                <a class="nav-item nav-link px-3" href="colleges.html">Colleges and Universities</a>
-                <a class="nav-item nav-link px-3" href="index.html">Log Out</a>
+                <a class="nav-item nav-link px-3" href="../exams.html">Competitive Exams</a>
+                <a class="nav-item nav-link px-3" href="../colleges.html">Colleges and Universities</a>
+                <a class="nav-item nav-link px-3" href="../index.html">Log Out</a>
             </div>
         </div>
     </nav>
     <div class="py-5 mt-5">
-        <div class="container text-center mb-5 p-4 rounded-lg bg-dark shadow-lg">
-            <span class="display-4 font-weight-bold text-light">Engineering Entrance Exams</span>
+        <div class="container text-center my-5 p-4 rounded-lg bg-dark shadow-lg">
+            <span class="display-4 font-weight-bold text-light">Joint Entrance Exam - Mains</span>
         </div>
-        <div class="container my-5">
-            <input class="form-control" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for an exam">
+        <div class="container my-5 p-5 bg-light text-dark rounded">
+            <span>
+                This is one of the most popular engineering entrance exam in India. From 2020, the exam is getting held twice a year – in January and in April by NTA (National Testing Agency). Till 2018, JEE Main exam was being conducted by CBSE. JEE Main 2020 for January session was conducted between 6-11 and result for the same has been declared. The JEE Exam 2020 for April session will now be conducted on September 1-6. For detailed information regarding JEE Main, click on the options given in the below table.
+            </span>
         </div>
-        <div class="container my-5">
-            <hr>
+        <div class="container my-5 p-5 rounded">
+            <img class="container" src="../images/jee-main.jpg" alt="">
         </div>
-        <div id="myUL" class="row px-5" >
-            <a href="exams/jee-mains.html" class="container my-4 mx-2 py-2 col btn btn-dark">Joint Entrance Exam Main (JEE Mains)</a>
-            <a href="exams/bitsat.html" class="container my-4 mx-2 py-2 col btn btn-dark">Birla Institute of Technology and Science Admission Test (BITSAT)</a>
-            <a href="exams/viteee.html" class="container my-4 mx-2 py-2 col btn btn-dark">Vellore Institute of Technology Engineering Entrance Exams (VITEEE)</a>
-            <a href="exams/met.html" class="container my-4 mx-2 py-2 col btn btn-dark">Manipal Academy of Higher Education Engineering Test (MET)</a>
-            <a href="exams/aeee.html" class="container my-4 mx-2 py-2 col btn btn-dark">Amrita Engineering Entrance Exam (AEEE)</a>
+        <div class="container">
+        	<a href="https://jeemain.nta.nic.in/webinfo/public/home.aspx" target="_blank" class="container btn btn-dark">For more information</a>
         </div>
     </div>
 </body>
