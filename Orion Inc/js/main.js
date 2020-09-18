@@ -10,7 +10,7 @@
   
     $('#course_type').parent().append('<ul class="list-item" id="newcourse_type" name="course_type"></ul>');
     $('#course_type option').each(function(){
-        $('#newcourse_type').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li>');
+        $('#newcourse_type').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li><br>');
     });
     $('#course_type').remove();
     $('#newcourse_type').attr('id', 'course_type');
@@ -21,7 +21,7 @@
 
     $('#confirm_type').parent().append('<ul class="list-item" id="newconfirm_type" name="confirm_type"></ul>');
     $('#confirm_type option').each(function(){
-        $('#newconfirm_type').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li>');
+        $('#newconfirm_type').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li><br>');
     });
     $('#confirm_type').remove();
     $('#newconfirm_type').attr('id', 'confirm_type');
@@ -32,7 +32,7 @@
     
     $('#hour_appointment').parent().append('<ul class="list-item" id="newhour_appointment" name="hour_appointment"></ul>');
     $('#hour_appointment option').each(function(){
-        $('#newhour_appointment').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li>');
+        $('#newhour_appointment').append('<li value="' + $(this).val() + '">'+$(this).text()+'</li><br>');
     });
     $('#hour_appointment').remove();
     $('#newhour_appointment').attr('id', 'hour_appointment');
