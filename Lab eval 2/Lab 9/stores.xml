@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--  <!DOCTYPE gadgetList SYSTEM "storeDTD.dtd">
+<gadgetList> -->
+<gadgetList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="storeXSD.xsd">
+
+	<brandWise brand="Apple">
+
+		<productDetails>
+			<refNo>987454231</refNo>
+			<name>iPad Pro 2020 (11 inch)</name>
+			<color>Grey</color>
+			<price>85,900</price>
+			<xchngPrice>76,540</xchngPrice>
+		</productDetails>
+
+		<productDetails>
+			<refNo>256987413</refNo>
+			<name>Macbook Pro 2020 (16 inch)</name>
+			<color>Silver</color>
+			<price>1,99,900</price>
+			<xchngPrice/>
+		</productDetails>
+
+		<productDetails>
+			<refNo>897412365</refNo>
+			<name>iMac with retina 5k display (27 inch)</name>
+			<color>White</color>
+			<price>1,69,900</price>
+			<xchngPrice/>
+		</productDetails>
+
+		<productDetails>
+			<refNo>452139786</refNo>
+			<name>iPhone 11 Pro max (6.5 inch)</name>
+			<color>Midnight Green</color>
+			<price>1,17,100</price>
+			<xchngPrice>96,540</xchngPrice>
+		</productDetails>
+
+	</brandWise>
+
+	<brandWise brand="Lenovo">
+
+		<productDetails>
+			<refNo>521064987</refNo>
+			<name>Lenovo M10 (10.1 inch)</name>
+			<color>Matte Black</color>
+			<price>15,900</price>
+			<xchngPrice/>
+		</productDetails>
+
+		<productDetails>
+			<refNo>521064987</refNo>
+			<name>Lenovo Ideapad 540s (15.6 inch)</name>
+			<color>Platinum Grey</color>
+			<price>68,490</price>
+			<xchngPrice>54,256</xchngPrice>
+		</productDetails>
+
+		<productDetails>
+			<refNo>512697437</refNo>
+			<name>Lenovo 9LIN Yoga (14 inch)</name>
+			<color>Grey</color>
+			<price>1,13,490</price>
+			<xchngPrice/>
+		</productDetails>
+
+	</brandWise>
+
+	<brandWise brand="Samsung">
+
+		<productDetails>
+			<refNo>456973652</refNo>
+			<name>Samsung TabS7 (11 inch)</name>
+			<color>Mystic Bronze</color>
+			<price>57,999</price>
+			<xchngPrice/>
+		</productDetails>
+
+		<productDetails>
+			<refNo>841032689</refNo>
+			<name>Samsung Chromebook 3 (11.6 inch)</name>
+			<color>Matte Black</color>
+			<price>66,920</price>
+			<xchngPrice>48,156</xchngPrice>
+		</productDetails>
+
+		<productDetails>
+			<refNo>126697455</refNo>
+			<name>Samsung S20 (11.6 inch)</name>
+			<color>Cosmic Grey</color>
+			<price>73,999</price>
+			<xchngPrice>68,542</xchngPrice>
+		</productDetails>
+
+	</brandWise>
+
+</gadgetList>

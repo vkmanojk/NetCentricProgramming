@@ -1,0 +1,15 @@
+<!DOCTYPE student [
+<!ELEMENT student (firstName, lastName, id, plan)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT plan (courses*)>
+<!ELEMENT courses (course*)>
+<!ATTLIST courses year CDATA #REQUIRED>
+<!ELEMENT course (name, shortName, record?)>
+<!ELEMENT record (grade, date)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT shortName (#PCDATA)>
+<!ELEMENT grade (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+]>

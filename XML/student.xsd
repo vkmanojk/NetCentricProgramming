@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="student">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="firstName" type="xsd:string"/>
+			<xsd:element name="lastName" type="xsd:string"/>
+			<xsd:element name="id" type="xsd:ID"/>
+			<xsd:element ref="plan"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+<xsd:element name="record">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="grade" type="xsd:string"/>
+			<xsd:element name="date" type="xsd:date"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+<xsd:element name="course">
+	<xsd:complexType>
+		<xsd:sequence>
+			<xsd:element name="name" type="xsd:string"/>
+			<xsd:element name="shortName" type="xsd:string"/>
+			<xsd:element ref="record" minOccurs="0"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:element>
+<xsd:element name="courses">
+	<xsd:complexType>
+		<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+			<xsd:element ref="course"/>
+		</xsd:sequence>
+		<xsd:attribute name="year" type="xsd:string"/>
+	</xsd:complexType>
+</xsd:element>
+<xsd:element name="plan">
+	<xsd:complexType>
+		<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+			<xsd:element ref="courses"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:unique name="coursesYear">
+		<xsd:selector xpath="courses"/>
+		<xsd:field xpath="@year"/>
+	</xsd:unique>
+</xsd:element>

@@ -1,0 +1,9 @@
+<!ELEMENT gadgetList (brandWise*)>
+<!ELEMENT brandWise (productDetails*)>
+<!ATTLIST brandWise brand CDATA #REQUIRED>
+<!ELEMENT productDetails (refNo,name,color,price,xchngPrice)>
+<!ELEMENT refNo (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT xchngPrice (#PCDATA)>
