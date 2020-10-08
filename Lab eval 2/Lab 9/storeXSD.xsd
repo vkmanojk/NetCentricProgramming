@@ -1,26 +1,26 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<xsd:element name="gadgetList">
-    <xsd:complexType>
-      <xsd:sequence minOccurs="0" maxOccurs="unbounded">
-        <xsd:element name="brandWise">
-            <xsd:complexType>
-                <xsd:sequence minOccurs="0" maxOccurs="unbounded">
-                    <xsd:element name="productDetails">
-                        <xsd:complexType>
-                            <xsd:sequence minOccurs="0" maxOccurs="unbounded">
-                                <xsd:element name="refNo" type="xsd:int" />
-                                <xsd:element name="name" type="xsd:string" />
-                                <xsd:element name="color" type="xsd:string" />
-                                <xsd:element name="price" type="xsd:string" />
-                                <xsd:element name="xchngPrice" type="xsd:string" />
-                            </xsd:sequence>
-                        </xsd:complexType>
-                    </xsd:element>
-                </xsd:sequence>
-                <xsd:attribute name="brand" type="xsd:string"/>
-            </xsd:complexType>
-        </xsd:element>
-      </xsd:sequence>
-    </xsd:complexType>
-  </xsd:element> 
+    <xsd:element name="gadgetList">
+        <xsd:complexType>
+            <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+                <xsd:element name="brandWise">
+                    <xsd:complexType>
+                        <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+                            <xsd:element name="productDetails">
+                                <xsd:complexType>
+                                    <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+                                        <xsd:element name="refNo" type="xsd:int"/>
+                                        <xsd:element name="name" type="xsd:string"/>
+                                        <xsd:element name="color" type="xsd:string"/>
+                                        <xsd:element name="price" type="xsd:string"/>
+                                        <xsd:element name="xchngPrice" type="xsd:string"/>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="brand" type="xsd:string"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
 </xsd:schema>
